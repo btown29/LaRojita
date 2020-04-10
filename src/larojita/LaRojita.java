@@ -71,6 +71,7 @@ public class LaRojita {
         try{
             dcs.setValue(10, "numero", "ejemplo");
             dcs.setValue(30, "obtengo", "final");
+            dcs.setValue(50,"dirección","resultado");
         OutputStream out = OutputStream.nullOutputStream();
         
         JFreeChart cha = ChartFactory.createBarChart3D("Etapas", "numero", "salida",dcs,PlotOrientation.VERTICAL, true, true,false);
